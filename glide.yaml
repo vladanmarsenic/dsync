@@ -1,0 +1,9 @@
+package: ""
+import:
+- package: github.com/minio/dsync
+- package: github.com/bouk/monkey
+- package: github.com/stretchr/testify
+  subpackages:
+  - mock
+- package: github.com/pkg/errors
+  version: v0.8.0
